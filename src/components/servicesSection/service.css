@@ -1,0 +1,161 @@
+.feel{
+  text-align: center!important;
+  color: rgba(255,255,255,.5)!important;
+margin-bottom: 15px;
+margin-left:-425px;
+}
+.serviceFullScreen{
+  width:100%;
+}
+.rowl{
+  padding-left: 0px;
+  padding-right: 0px;
+  /* justify-content: space-between; */
+}
+.rowf{
+  padding-left: 0px;
+  padding-right: 0px;
+  /* justify-content: space-between; */
+}
+.rowm{
+  padding-left: 0px;
+  padding-right: 0px;
+  /* justify-content: space-between; */
+}
+h5{
+    margin-left: 8px;
+    color: white !important;
+ }
+.column{
+      padding-right:15px;
+      padding-left:15px;
+}  
+.cont{
+      align-items: center;
+      width: 140% !important;
+}
+
+.serviceNext{
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 2px 21px;
+    padding-bottom: 0px!important;
+    background: transparent;
+}
+.serviceNext:hover{
+  border-color:rgba(255,255,255,.5)!important;
+  color:rgba(255,255,255,.5)!important;
+}
+ul{
+  line-height: 1.2;
+}
+.servicePrev{
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 2px 21px;
+  padding-bottom: 0px!important;
+  background: transparent;
+}
+.servicePrev:hover{
+  border-color:rgba(255,255,255,.5)!important;
+  color:rgba(255,255,255,.5)!important;
+}
+.serviceFullScreen{
+  display: block;
+}
+.serviceSmallScreen{
+display: none;
+}
+@media (max-width: 900px) {
+  .serviceFullScreen {
+    display: none!important;
+  }
+  button.bt1.serv.d-md-block.d-none.endButtonContainer {
+    display: none!important;
+}
+  .endButtonContainer{
+    display: none !important;
+  }
+  
+  .feel{
+    margin: 0px 0px 0px 0px;
+    
+    display: flex;
+    /* width: 40%; */
+    justify-content: left;
+}
+  .serviceSection{
+    padding-top: 124px;
+  }
+  
+  .servicePrev{
+    margin-right:79%;
+    margin-top:-5px;
+  }
+  .serviceNext{
+    margin-left:24px;
+  }
+  .serviceSmallScreen{
+    display: block!important;
+    }
+    .serviceSection{
+      width:100%!important;
+      }
+}
+.serviceSmallScreen .fp-controlArrow{
+  display: none!important;
+}
+.serviceSmallScreen .fp-tableCell{
+  vertical-align: top;
+}
+.endButton{
+  height: 6px;
+  width: 6px;
+  background: white;
+  border-radius: 3px;
+  transition: all 250ms ease-in-out;
+
+}
+.endButtonContainer{
+  color: white;
+    font-size: 1rem;
+    display: flex!important;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+}
+.endButtonContainer:hover .endButton{
+transform: translateY(15px);
+}
+/* @media (min-width:1200px){
+  .container{
+    width:140%;
+  }
+} */
+@media (max-width:992px){
+  .serviceSection{
+    width:100%!important;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width:992px){
+.serviceSection{
+  width:100%!important;
+}
+.feel{
+  margin-left:-173px;
+}
+}
+@media only screen and (max-width: 992px) and (min-width:900px){
+  .feel{
+    margin-left:-125px;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width:900px){
+.container{
+  margin-left:8%!important;
+}
+}

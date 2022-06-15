@@ -1,0 +1,88 @@
+.adminSlider {
+  min-height: 100vh !important;
+  height: 100vh;
+  color: white;
+  width: 200px !important;
+  background: linear-gradient(
+    300deg,
+    rgba(255, 15, 135, 0.6) 0%,
+    rgba(70, 18, 204, 0.6) 100%
+  ) !important;
+  z-index: 100;
+}
+.ant-menu-submenu-arrow {
+  color: white;
+}
+.sliderMenu {
+  background-color: transparent !important;
+  margin-top: 30px;
+  color: white;
+  font-size: 20px!important;
+}
+ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.sliderMenu:nth-last-child(1) {
+  border-bottom: 1px solid white !important;
+}
+.sliderMenu .ant-menu-item,
+.sliderMenu .ant-menu-submenu-title {
+  border-top: 1px solid white;
+  margin: 0 !important;
+  padding: 0 auto !important;
+  color: white;
+  font-family: "Nexa bold";
+}
+.adminLogo {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.adminLogo img {
+  height: 100% !important;
+  aspect-ratio: 2/1;
+}
+
+.adminSlider .ant-layout-sider-children {
+  height: auto;
+  margin-top: -0.1px;
+  padding-top: 0.1px;
+  padding-bottom: 50px;
+}
+
+.adminSlider .ant-menu-submenu-selected {
+  color: black !important;
+}
+.adminSlider .ant-menu-submenu-title:hover {
+  color: black !important;
+}
+
+.adminSlider .ant-menu-item.ant-menu-item-only-child:hover {
+  color: black !important;
+}
+
+.adminSlider .ant-menu-item.ant-menu-item-selected.ant-menu-item-only-child {
+  color: black !important;
+}
+
+@media screen and (max-width: 768px) {
+  .bigSlider {
+    display: none !important;
+  }
+  .smallSlider {
+    display: block !important;
+    width: 100vw !important;
+  }
+}
+.smallSlider {
+  display: none;
+  width: 100vw !important;
+  z-index: 100;
+}
+.bigSlider {
+  display: block;
+}
+.mobileLogo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

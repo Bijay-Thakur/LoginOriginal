@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="Login Corps"
+      content="Login Corps is a leading corporation in Nepal"
+    />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta property="og:image" content="https://logindesigns.com/admin/files/15753591790.webp">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <style>
+      [data-aos="rotate-c"] {
+        transform: rotate(-180deg);
+        transition-property: transform;
+      }
+
+      [data-aos="rotate-c"].aos-animate {
+        transform: rotate(0deg);
+      }
+    </style>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login Design</title>
+  </head>
+  <body>
+    <!-- <iframe src="../src/assets/audio/silence.mp3" allow="autoplay"  style="display: none" id="audio"></iframe> -->
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  
+    <script>
+      $(".owl-carousel").owlCarousel({
+        nav: true,
+        navText: ['Prev', 'Next'],
+        navElement: 'span',
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        thumbs: true,
+        // thumbImage: true,
+        thumbsPrerendered: true,
+        loop: false,
+        rewind: true,
+        mouseDrag: false,
+        touchDrag: false,
+        items: 1
+      });
+  
+      $(".owl-carousel--nested").owlCarousel({
+        nav: true,
+        navText: ['Prev--Nested', 'Next--Nested'],
+        navElement: 'span',
+        dots: true,
+        loop: false,
+        rewind: true,
+        items: 3
+      });
+    </script>
+  </body>
+</html>

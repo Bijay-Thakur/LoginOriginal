@@ -1,0 +1,32 @@
+.heroSection{
+    width: 90% !important;
+    left:6%;
+}
+h2{
+    color:white;
+    font-family: 'nexa bold';
+}
+.hero h2{
+    padding: 0px 85px;
+}
+.hero p{
+    color: white;
+    font-family: 'nexa light';
+    font-size: 18px;
+}
+.hers{
+    left:50%;
+}
+@media(max-width:768px){
+    /* button.bt1.hers.d-md-block.d-none.endButtonContainer {
+        display: none!important;
+    } */
+    .section{
+        width: 90% !important;
+    }
+    .hero h2{
+        padding:0px;
+    }
+    }
+
+    

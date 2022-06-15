@@ -1,0 +1,17 @@
+.menuItem:hover .icon-container {
+  background-color: white !important;
+}
+@media(max-width:992px){
+  #myMenu{
+    display: none !important;
+  }
+}
+.sideMenuActive a{
+  color: white!important;
+}
+.sideMenuActive .icon-container{
+  background: white!important;
+}
+.active .icon-container{
+  background-color: white!important;
+}

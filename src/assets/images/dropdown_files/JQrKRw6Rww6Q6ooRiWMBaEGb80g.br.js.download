@@ -1,0 +1,1 @@
+var SkipToContentCF;(function(){function i(n,i){sj_log===null||sj_log===void 0?void 0:sj_log("CI."+t,n,i!==null&&i!==void 0?i:"1")}function r(t){t&&t.key==="Tab"&&n&&(i("FirstAppear"),n=!1)}var t="SkipToContent",n=!0;sj_be(_d.body,"keydown",r)})(SkipToContentCF||(SkipToContentCF={}))

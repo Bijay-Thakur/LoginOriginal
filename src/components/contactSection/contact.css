@@ -1,0 +1,262 @@
+.contactSection{
+  margin-left:17%;
+}
+h4 {
+  color: white;
+}
+.secondSlide{
+  width: 40% !important;
+}
+.servicePrev {
+  margin-left: 10px;
+}
+.span {
+  color: transparent;
+}
+/* .msgus{
+  width: 63%;
+} */
+
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .msgus{
+    width:87%;
+  }
+  .contactSection{
+    margin-left:0%;
+  }
+
+}
+
+element.style {
+  margin-left: -50px;
+  padding-left: 0px;
+}
+
+.sendsms {
+  border-style: solid;
+  background: transparent;
+  border-radius: 20px;
+  border-color: white;
+  height: 40px;
+  margin-left: -80%;
+  margin-top: 5%;
+}
+.sendsms p {
+  margin-top: -5px;
+}
+.goLeft {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 992px) {
+  .sendsms {
+    margin-left: 100;
+    background: transparent;
+    border-radius: 20px;
+    border-color: white;
+    height: 40px;
+    margin-left: -61%;
+  }
+  .continfo{
+    display: flex;
+    flex-direction: column;
+    width: 100%!important;
+    text-align: left !important;
+    line-height: 2;
+  } 
+}
+.customer {
+  margin-bottom: 20px;
+}
+.emus {
+  margin-bottom: 20px;
+  font-family: "Nexa Light" !important;
+}
+.contactInfoContainer {
+  /* margin-top: 6%; */
+  /* margin-bottom: 5%; */
+  text-align: left;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin: left 0px;
+}
+.sendsms:hover {
+  border-color: gray;
+}
+.sendsms p {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -5px;
+}
+
+.contactSection .fp-controlArrow {
+  display: none;
+}
+.send:hover {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.goLeft {
+  background: transparent;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+  height: 40px;
+  border-radius: 20px;
+}
+.goLeft:hover {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+.back {
+  color: white;
+  margin-top: -10px;
+}
+.send:hover {
+  color: white;
+}
+.back:hover {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+@media (max-width: 768px) {
+  .customer {
+    display: none !important;
+  }
+  .contactSection{
+    margin-left:4%;
+  }
+  .contactSection .intel {
+    display:none;
+  }
+  .continfo p{
+    width:100%!important;
+  }
+  .smallteam{
+    display: block !important;
+    margin-left:50%;
+    margin-top:-13%;
+  }  
+  .sendButton{
+    width: 48% !important;
+  }
+/* .continfo p {
+    width: 44%!important;
+} */
+  .sendsms {
+    margin-left: -38% !important;
+  } 
+  .continfo {
+    text-align: left !important;
+    line-height: 1.5!important;
+    margin-top: 5%;
+    width: 100%!important;
+  }
+}
+
+.mb-3 {
+  color: white;
+  line-height: 0.5;
+}
+
+.contactSection input {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.form-control {
+  background: transparent;
+  border-color: transparent;
+  border-bottom-color: white;
+  padding-top: 0px;
+  line-height: 0.5;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.form-control:focus {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.5) !important;
+  border-color: transparent;
+  border-bottom-color: white;
+  box-shadow: none;
+}
+.msg {
+  border-color: white;
+  height: 80px;
+  margin: bottom 0px !important;
+}
+
+.capt {
+  margin-top: 0px;
+}
+@media only screen and (max-width: 1600px) and (min-width: 992px) {
+  .sendsms {
+    margin-left: -74%;
+  }
+  .continfo{
+    margin-left:40px;
+  }
+  .contactSection .team {
+    margin-left:40px;
+  }
+}
+
+.contactSection .team {
+  color: white;
+  /* margin-top: 34px; */
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 7px 21px;
+  font-size: 1rem;
+  background: transparent !important;
+}
+
+.contactSection .team:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sendButtonContainer {
+  display: flex;
+  margin-top: 15px;
+}
+
+.continfo{
+  display: flex;
+  flex-direction: column;
+  /* width: 60%; */
+  text-align: left !important;
+  line-height: 2;
+}
+.continfo h2{
+  margin-bottom: 0px;
+}
+.continfo p{
+  width: 80%;
+  margin-right: 100%;
+  margin-bottom: 25px;
+  font-size: 18px;
+  color:rgba(255, 255, 255, 0.5)!important;
+}
+.contcol svg{
+  margin-right: 3px;
+}
+.eml{
+  margin-top: 24%;
+}
+.eml h4{
+  margin-bottom: 10px;
+}
+.eml h2{
+  font-size: 30px;
+  font-family: "nexa light";
+}
+.eml h4{
+  font-family: "nexa light";
+}
+@media (max-width:360px){
+  .smallteam{
+    margin-top: -25%!important;
+  }
+}

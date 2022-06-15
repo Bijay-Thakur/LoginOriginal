@@ -1,0 +1,63 @@
+#myMenu {
+  list-style: none;
+  position: absolute;
+  left: 5%;
+  padding: 0;
+  top: 225px;
+  z-index: 100;
+}
+
+
+.icon-container {
+  display: inline-flex;
+  height: 32px;
+  width: 32px;
+  margin-right: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.leftMenu .active .icon-container {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.icon-container svg {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+}
+.icon-container:hover {
+  background: rgba(255, 255, 255, 0.1)!important;
+}
+
+#myMenu .active a {
+  font-family: "Nexa Light" !important;
+  color: white;
+
+}
+.leftMenu a:hover {
+  color: white !important;
+  transition-delay: 1ms;
+  text-shadow: 0px 5px 200px white;
+}
+
+.leftMenu a {
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  font-size: 1rem;
+  font-family: "Nexa Regular" !important;
+  color: rgba(255, 255, 255, 0.5);
+}
+#myMenu li {
+  height: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+#myMenu li svg {
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+#myMenu li:active svg {
+  color: rgba(0, 0, 0, 0.5) !important;
+}

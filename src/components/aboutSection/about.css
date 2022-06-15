@@ -1,0 +1,34 @@
+.abtSection{
+    width: 90% !important;
+    left:6%;
+}
+h1{
+    color:white;
+    font-family: 'nexa bold';
+}
+.we{
+    color:rgba(255,255,255,.5)!important;
+    font-family: 'nexa light';
+    margin-left:7px;
+}
+.abt{
+    left:50%;
+}
+@media (max-width: 768px){
+    /* button.bt1.abt.d-md-block.d-none.endButtonContainer {
+        display: none!important;
+    } */
+    .abtSection{
+        width: 93% !important;
+        left:4%;
+    }
+}
+ @media (max-width: 992px){
+    .abtSection{
+        width:90%;
+    }
+    .hero p{
+        width: 98% !important;  
+        margin-left:0%!important;
+    }
+}

@@ -1,0 +1,83 @@
+
+.copyright{
+    position: absolute;
+      bottom: 0;
+      z-index: 200;
+      width: 100%;
+      height: 43px;
+      left:0;
+      right:10;
+      margin-left: 10;
+      font-weight: 2000;
+      align-content: left;
+  }
+  .copy{
+    position:absolute;
+    top: 1px;
+    right:10;
+    left: 76px;
+    height: 500px;
+    bottom: 200px;
+    color:gray ;
+    opacity: 1;
+    font-family:'nexa light'!important;
+    font-size: 16px;
+  }
+  
+  .copyright svg{
+    margin-right: 5px;
+   }
+  .items{
+    position:absolute;
+    top: 1px;
+    right: 48px;
+    left:10;
+    display:flex;
+  
+    }
+    .items .volume{
+      color: rgba(255,255,255,.5)!important;
+      font-size: 25px;
+      display: flex;
+      justify-content: flex-end;
+      padding-right:40px;
+      z-index:1000!important;
+  
+    }
+    .items .social svg{
+      margin-right: 17px;
+      font-size: 25px;
+      color: rgba(255,255,255,.5)!important;
+     }
+    .items .social{
+      background: transparent;
+      color:#282c34;
+      opacity: 1;
+      margin-right: 10;
+    }
+    .items .social:hover svg{
+      color: white !important;
+    }
+    
+    @media only screen and (max-width: 768px) {
+      .items .social svg{
+        font-size: 20px!important;
+        margin-right:10px;
+      }
+      .items .volume svg{
+        font-size:20px!important;
+      }
+      .copy{
+        font-size: 13px;
+        left:25px;
+      }
+      .items{
+        right:17px;
+      }
+    }
+    /* @media only screen and (max-width: 360px){
+   .volume {
+    margin-left: -6%;
+    margin-top: -6%;
+}
+} */

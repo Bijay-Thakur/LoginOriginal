@@ -1,0 +1,48 @@
+
+.titleFrontPage{
+    height: 100vh;
+    font-family:'nexa light';
+    display:flex;
+    align-items:center;
+    background-color: #1d2128;
+}
+.titleFrontPage h3{
+    color:white;
+    font-family: 'nexa bold'; 
+}
+.btn1{
+    color:white;
+    border-color: transparent;
+    background: transparent;
+}
+.forbtn{
+    display: flex;
+    align-items: center;
+}
+.line{
+    background:white;
+    height:2px;
+    width:86px;
+}
+.titleFrontPage h2{
+    color:white;
+    font-size: 26px;
+    margin-left: 10px;
+}
+.titleFrontPage p{
+    color:white;
+}
+.Login{
+   width:90%;
+   height:55%;
+   margin-left: auto;
+}
+@media(max-width:768px){
+    .Login{
+        width: 100% !important;
+        height: 100% !important;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

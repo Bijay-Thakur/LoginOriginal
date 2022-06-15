@@ -1,0 +1,60 @@
+.teamPageContainer {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+  background-image: url("../assets/images/backgroundimage.webp");
+}
+
+.teamPageContainer::after {
+  content: "";
+  background-image: linear-gradient(
+    300deg,
+    rgba(255, 15, 135, 0.6) 0%,
+    rgba(70, 18, 204, 0.6) 100%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.teamPageContainer::before{
+  content: '';
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+.aboutSection {
+  height: 100vh;
+}
+
+.teamPage h2 {
+  color: white;
+  font-family: "nexa bold";
+}
+.teamPage h3 {
+  color: white;
+  font-family: "nexa bold";
+}
+.teamPage h1 {
+  color: white;
+  font-family: "nexa bold";
+}
+.teamPage h4 {
+  color: white;
+  font-family: "nexa bold";
+}
